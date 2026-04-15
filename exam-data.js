@@ -1,68 +1,68 @@
 window.EXAM_DATA = {
-  meta: { testNumber: 'ETS-PT3' },
+  meta: { testNumber: 'ETS-PT4' },
 
   // ── MODULE 1 ────────────────────────────────────────────────────────────────
   m1: {
     r1: {
       segs: [
-        "Conservation is the effort to protect plants and animals that are endangered because of human activities. Conservationists ",
-        " endangered ",
-        " by ",
-        " areas ",
-        " they ",
-        " live ",
-        ". Conservationists ",
-        " educate ",
-        " public ",
-        " the ",
-        " of preserving the natural world. Conservation is based on research about wildlife and ecosystems that aims to understand their needs and the threats they face.",
-        " By taking care of the environment, conservationists help ensure a healthy planet for future generations."
+        "Modern biochemistry focuses on the chemical processes within and related to living organisms. It ",
+        " a laboratory-based ",
+        " that ",
+        " biology ",
+        " chemistry. Biochemists ",
+        " how cells ",
+        " and ",
+        ", exploring ",
+        " fundamental ",
+        " that ",
+        " life. The field has advanced our understanding of how diseases occur and how they can be treated or prevented.",
+        " Techniques such as molecular cloning and protein analysis are central to biochemistry, leading to innovations in medicine and biotechnology."
       ],
       blanks: [
-        { prefix: "sa",     suffix: "ve",      ans: "save"       },
-        { prefix: "spe",    suffix: "cies",    ans: "species"    },
-        { prefix: "crea",   suffix: "ting",    ans: "creating"   },
-        { prefix: "wh",     suffix: "ere",     ans: "where"      },
-        { prefix: "c",      suffix: "an",      ans: "can"        },
-        { prefix: "saf",    suffix: "ely",     ans: "safely"     },
-        { prefix: "al",     suffix: "so",      ans: "also"       },
-        { prefix: "t",      suffix: "he",      ans: "the"        },
-        { prefix: "ab",     suffix: "out",     ans: "about"      },
-        { prefix: "impor",  suffix: "tance",   ans: "importance" }
+        { prefix: "i",      suffix: "s",        ans: "is"          },
+        { prefix: "sci",    suffix: "ence",      ans: "science"     },
+        { prefix: "comb",   suffix: "ines",      ans: "combines"    },
+        { prefix: "a",      suffix: "nd",        ans: "and"         },
+        { prefix: "inves",  suffix: "tigate",    ans: "investigate" },
+        { prefix: "func",   suffix: "tion",      ans: "function"    },
+        { prefix: "commu",  suffix: "nicate",    ans: "communicate" },
+        { prefix: "t",      suffix: "he",        ans: "the"         },
+        { prefix: "mecha",  suffix: "nisms",     ans: "mechanisms"  },
+        { prefix: "sus",    suffix: "tain",      ans: "sustain"     }
       ]
     },
     reading: {
       texts: [
         {
-          title: "Maintenance Notice",
+          title: "Bella Italia Reservation",
           tag: "Email",
-          content: "Subject: Maintenance Notice\n\nDear Mr. Brown,\n\nWe are pleased that you are considering our facility for your mother's birthday party.\n\nOur maintenance team is scheduled to paint your apartment's living room on March 11 starting at 9:00 a.m. We ask that you leave the apartment and not return until one hour after the painters have finished at 12:00 p.m.\n\nBest regards,\nAnna Davis",
+          content: "Subject: Bella Italia reservation\n\nDear Ms. Green,\n\nThis concerns your table reservation for 4 at Bella Italia Restaurant for December 5 at 7:00 P.M. Since you made your reservation more than two weeks ago, the $10.00 charge at the door for the night's live musical entertainment is waived.\n\nThank you,\nAnthony Russos",
           qi: [0, 1]
         },
         {
-          title: "Welcome to the Library Quiet Zone!",
+          title: "Library Computer Reservation System",
           tag: "Notice",
-          content: "This area is specifically designated for quiet reading and study to ensure a peaceful environment for all patrons. Please adhere to the following guidelines:\n\n1. Noise Levels: Please keep noise to a minimum. This includes refraining from loud conversations and phone calls.\n\n2. Electronic Devices: Ensure that all electronic devices, such as phones and laptops, are set to silent mode. The volume on headphones must be kept low.\n\n3. Conversations: If you need to have a conversation, please conduct it quietly or proceed to another area of the library.\n\n4. Music and Media: Listening to music or watching videos without headphones is not allowed. Please keep the volume of headphones at a level that only you can hear.\n\n5. Respect for Others: Be mindful of those around you who are studying or reading. Your cooperation helps maintain a serene environment for everyone.",
+          content: "LIBRARY COMPUTER RESERVATION SYSTEM\n\n☐ Basic (Internet only)     ☐ Premium (Full software access)\n\nName: _______________\nLibrary Card Number: _______________\nComputer Station Preference: _______________\nRequested Date: _______________\nTime Slot:  ☐ 9–11 A.M.   ☐ 11 A.M.–1 P.M.   ☐ 1–3 P.M.   ☐ 3–5 P.M.\n\nMaximum reservation time: 2 hours per day. Premium stations require advance booking and may be reserved up to one week in advance. Basic stations are available on a first-come first-served basis same day only. Late arrival (more than 15 minutes) results in automatic cancellation. Photo ID required at check-in.",
           qi: [2, 3, 4]
         },
         {
-          title: "Jet Stream Dynamics",
+          title: "Ancient Egyptian Medicine",
           tag: "Academic Passage",
-          content: "The jet stream is a fast-moving ribbon of air high in the atmosphere that affects global weather. Flowing west to east at speeds of up to 200 miles per hour, it forms due to the temperature contrast between cold polar air and warm tropical air, which creates pressure differences that generate strong winds. In the northern hemisphere, when the jet stream dips southward, it brings cold air and storms to lower latitudes.\n\nThe jet stream also influences cyclones and anticyclones, affecting precipitation and wind patterns. The jet stream's dynamics are influenced by factors like the Earth's rotation and uneven heating of its surface. Seasonal changes play a role; it's stronger in winter due to the greater temperature contrast between the poles and the equator. Understanding the jet stream's behavior helps meteorologists predict weather and plan for climate events.\n\nRecent research shows that climate change is impacting the jet stream. The warming Arctic reduces the temperature difference between polar and tropical air masses, which may weaken the jet stream. A weaker jet stream can lead to slower-moving weather systems, resulting in prolonged periods of extreme weather, such as heatwaves or heavy rainfall.",
+          content: "Ancient Egyptian medicine was advanced for its time and laid the foundation for many modern practices. Egyptians believed the body was a system of channels similar to the Nile River. Illness was thought to be caused by blockages in these channels, like a blocked canal causing flooding. Treatments focused on unblocking channels using herbal remedies and physical interventions. One significant contribution of Egyptian medicine was surgical techniques. Ancient texts describe procedures like the removal of tumors and the setting of broken bones. They also record practices like cleaning wounds and disinfecting medical instruments. This suggests that Egyptian doctors understood the connection between cleanliness and preventing infections, a concept widely accepted only much later in history. In addition to surgery, Egyptians were skilled in pharmacology. They used substances like honey and willow bark to treat ailments. Modern science has validated some ancient remedies; for example, willow bark contains salicin, a precursor to aspirin, with pain-relieving properties. While Egyptians demonstrated an impressive body of knowledge, Egyptian medicine was also intertwined with religion. Many treatments involved prayers and rituals to invoke the favor of the gods. This blend of empirical practice and spiritual belief shows the complexity of ancient Egyptian medicine.",
           qi: [5, 6, 7, 8, 9]
         }
       ],
       qs: [
-        { q: "What room in the apartment will be painted?", opts: ["The kitchen", "The dining room", "The living room", "The bedroom"], ans: 2 },
-        { q: "When can Mr. Brown return to the apartment?", opts: ["At 9:00 AM", "At 11:00 AM", "At 12:00 PM", "At 1:00 PM"], ans: 3 },
-        { q: "What can be concluded about the library?", opts: ["It has areas that are not specifically designated as quiet zones.", "It has received numerous complaints about noise levels.", "It is located on the campus of a university.", "It holds a large collection of film and music recordings."], ans: 0 },
-        { q: "The phrase \"adhere to\" in the opening paragraph is closest in meaning to", opts: ["notice", "read", "follow", "admire"], ans: 2 },
-        { q: "What is indicated about headphones?", opts: ["They are not permitted in the library's quiet zone.", "They are only allowed for use with smartphones and laptop computers.", "They may not be shared between two users.", "They should be kept at a low volume."], ans: 3 },
-        { q: "What causes the formation of the jet stream?", opts: ["The behavior of cyclones", "The uneven heating of the Earth's surface", "The difference in temperature between air masses", "The temperature changes that occur seasonally"], ans: 2 },
-        { q: "How does the jet stream affect weather systems in the northern hemisphere when it dips southward?", opts: ["It brings warmer air to lower latitudes.", "It leads to more stable conditions.", "It brings storms to places further south.", "It brings cyclones to higher latitudes."], ans: 2 },
-        { q: "What is one of the main factors influencing the jet stream's behavior?", opts: ["The Earth's rotation", "The presence of cyclones", "The amount of precipitation", "The direction of wind patterns"], ans: 0 },
-        { q: "What does the author suggest about the impact of climate change on the jet stream?", opts: ["It will have no significant effect on the jet stream.", "It is reducing the temperature difference between polar and tropical air masses.", "It is causing the jet stream to move faster.", "It is increasing the temperature contrast between the poles and the equator."], ans: 1 },
-        { q: "The word \"prolonged\" in the passage is closest in meaning to", opts: ["extended", "seasonal", "rapid", "short-term"], ans: 0 }
+        { q: "How many people will dine with Ms. Green?", opts: ["2", "3", "4", "5"], ans: 1 },
+        { q: "What will Ms. Green not be charged for?", opts: ["Canceling the reservation", "Rescheduling the reservation", "Listening to live music", "Inviting additional guests"], ans: 2 },
+        { q: "What is this form used for?", opts: ["Applying for a new library card", "Reporting problems with library computers", "Booking time to use library computers", "Requesting software installation on computers"], ans: 2 },
+        { q: "How far in advance can someone reserve a Premium station?", opts: ["The same day only", "Up to one week ahead", "Up to one month ahead", "Up to two weeks in advance"], ans: 1 },
+        { q: "What happens if someone arrives 20 minutes late for their reservation?", opts: ["They can still use the computer for the remaining time.", "They must pay an additional fee.", "Their reservation is automatically canceled.", "They are moved to a Basic station instead."], ans: 2 },
+        { q: "The author mentions \"a blocked canal causing flooding\" to explain", opts: ["the importance of the Nile River for Egyptian culture", "the ancient Egyptians' idea of why humans became sick", "the wide variety of illnesses common in ancient Egypt", "the connection between agriculture and medicine"], ans: 1 },
+        { q: "The passage suggests that which of the following was a surprising achievement of ancient Egyptian medicine?", opts: ["Its procedures improved greatly over time.", "It understood the importance of cleanliness in preventing infections.", "Its use of Nile River water was often successful.", "Its understanding of the cause of illnesses was largely accurate."], ans: 1 },
+        { q: "Why does the author discuss the use of willow bark?", opts: ["To suggest that some ancient remedies could be harmful", "To explain the invention of aspirin", "To highlight the variety of natural remedies available in Egypt", "To show that some ancient Egyptian remedies were effective"], ans: 3 },
+        { q: "The word \"invoke\" in the passage is closest in meaning to", opts: ["request", "understand", "increase", "express"], ans: 0 },
+        { q: "What role did religion play in ancient Egyptian medicine?", opts: ["Doctors were trained by religious authorities.", "Religious beliefs limited the kinds of medicine that could be used.", "Prayers and rituals were often a part of medical treatment.", "Doctors were thought to have special connections to the gods."], ans: 2 }
       ]
     }
   },
@@ -71,64 +71,64 @@ window.EXAM_DATA = {
   m2: {
     r1: {
       segs: [
-        "Economics is the study of how societies allocate resources and make decisions about production, distribution, and consumption. It ",
-        " the behavior ",
-        " governments, ",
-        ", and ",
-        " in ",
-        " marketplace. ",
-        " economics ",
-        " not ",
-        " for ",
-        " who ",
-        " to become economists or bankers. Gaining a basic understanding of economic concepts, like supply and demand, inflation, and employment, benefits everyone.",
-        " It enables us to make informed decisions and understand the broader economic forces that shape our daily lives."
+        "Cognitive science and the study of consciousness delve into how humans and animals perceive the world, process information, and experience awareness. Cognition ",
+        " mental ",
+        " like ",
+        ", learning, ",
+        " decision-making, ",
+        " consciousness ",
+        " the ",
+        " experience ",
+        " being ",
+        ". Researchers ",
+        " tools such as brain imaging to explore these complex processes.",
+        " Findings in this field have far-reaching implications, from improving mental health care to advancing artificial intelligence and educational practices."
       ],
       blanks: [
-        { prefix: "exam",   suffix: "ines",    ans: "examines"    },
-        { prefix: "o",      suffix: "f",       ans: "of"          },
-        { prefix: "busin",  suffix: "esses",   ans: "businesses"  },
-        { prefix: "indiv",  suffix: "iduals",  ans: "individuals" },
-        { prefix: "t",      suffix: "he",      ans: "the"         },
-        { prefix: "Stud",   suffix: "ying",    ans: "Studying"    },
-        { prefix: "i",      suffix: "s",       ans: "is"          },
-        { prefix: "ju",     suffix: "st",      ans: "just"        },
-        { prefix: "th",     suffix: "ose",     ans: "those"       },
-        { prefix: "asp",    suffix: "ire",     ans: "aspire"      }
+        { prefix: "encom",  suffix: "passes",   ans: "encompasses" },
+        { prefix: "activ",  suffix: "ities",    ans: "activities"  },
+        { prefix: "mem",    suffix: "ory",       ans: "memory"      },
+        { prefix: "a",      suffix: "nd",        ans: "and"         },
+        { prefix: "whe",    suffix: "reas",      ans: "whereas"     },
+        { prefix: "invo",   suffix: "lves",      ans: "involves"    },
+        { prefix: "subje",  suffix: "ctive",     ans: "subjective"  },
+        { prefix: "o",      suffix: "f",         ans: "of"          },
+        { prefix: "aw",     suffix: "are",       ans: "aware"       },
+        { prefix: "u",      suffix: "se",        ans: "use"         }
       ]
     },
     reading: {
       texts: [
         {
-          title: "Medical Appointment",
+          title: "Photography Class",
           tag: "Email",
-          content: "Subject: Medical appointment\n\nDear Ms. Patel,\n\nYour appointment at Lakeside Medical Center is scheduled for May 10 at 3:00 P.M. Please arrive 15 minutes early for paperwork. You will be seen by Dr. Liu. Click the link below to confirm. To reschedule or cancel, call us at 756-8793.\n\nRegards,\nBrittany Jones",
+          content: "Subject: Photography class\n\nDear Mr. Clark,\n\nUnfortunately, the photography class you registered for on October 20 has been rescheduled. It will now meet on October 28 at 6:00 P.M. instead of October 26 at 5:00 P.M. Your registration fee will be refunded if you have a scheduling conflict.\n\nRegards,\nEmily Rodriguez",
           qi: [0, 1]
         },
         {
-          title: "Riverdale Parks Department — Volunteer Opportunity",
+          title: "Effective Communication in the Modern Workplace",
           tag: "Advertisement",
-          content: "Riverdale Parks Department seeks dedicated volunteers to assist with weekend nature programs for families.\n\nThe programs will begin on May 1.\n\nVolunteers must be available Saturdays or Sundays, 9 A.M. to 4 P.M., and complete a four-hour training session before starting.\n\nTraining sessions are scheduled for the week of April 15.\n\nPrevious experience with children preferred but not required.\n\nResponsibilities include leading nature walks, supervising craft activities, and helping with educational demonstrations.\n\nApplication deadline: March 15.\n\nBackground check required for all accepted volunteers.\n\nContact Sarah Mitchell at 555-0199 for more information.",
+          content: "Effective Communication in the Modern Workplace\n\nA one-day intensive workshop for managers and team leaders. Learn practical strategies for conducting productive meetings, providing constructive feedback, and resolving workplace conflicts. Experienced facilitators will guide participants through interactive exercises and real-world scenarios. Workshop includes comprehensive workbook and light refreshments.\n\nEarly bird registration (before April 1): $195. Regular price: $245.\n\nLimited to 25 participants to ensure personalized attention.\n\nCertificate of completion provided for continuing education requirements.",
           qi: [2, 3, 4]
         },
         {
-          title: "The Golden Age of Television",
+          title: "The Origins of Theater",
           tag: "Academic Passage",
-          content: "The Golden Age of Television is often considered to have occurred during the 1950s and 1960s, when TV became a dominant cultural force. This era was marked by groundbreaking shows that experimented with new formats and storytelling techniques.\n\nDuring this time period, TV saw the rise of anthology series, which presented different stories and characters in each episode, in contrast to traditional ongoing narratives. One influential anthology series was The Twilight Zone, which blended science fiction, horror, and drama in thought-provoking ways. Sitcoms reflecting everyday life, like I Love Lucy, became a cultural phenomenon. Despite its simple format, the show tackled complex social issues including gender roles and family dynamics. There was also a new focus on live broadcasts, providing viewers with real-time coverage of events and entertainers.\n\nHowever, the Golden Age was not without challenges. TV networks navigated the balance between artistic innovation and commercial pressures. Advertisers sought to influence content to appeal to mass audiences, which sometimes clashed with creative visions. Nonetheless, the period left an indelible mark on the television industry, setting standards for future programming and contributing to the medium's evolution.",
+          content: "European theater has ancient roots, evolving from the rituals and storytelling of early societies. The earliest performances took place in ancient Greece, where festivals honoring the god Dionysus included dramatic contests. These performances were essential to communal life and aimed to convey moral lessons. The Greeks developed distinct genres: tragedy and comedy. Tragedies by Aeschylus and others explored themes of fate, justice, and suffering. Comedies, like those by Aristophanes, satirized society and politics. The structure of Greek theater, with its chorus and masks, had a lasting impact on later cultures.\n\nThe tradition of theater continued in the ancient Roman Empire, where it became popular entertainment. [A] Roman theater borrowed from Greek precedents but introduced new elements like elaborate stage designs including, for example, statues of heroes or portraits of the imperial family. [B] These added layers of meaning and context to the plays and helped to convey the themes and narratives more effectively. Despite its rich history, theater faced decline during the Middle Ages in Europe (the period between 500 and 1500 C.E.). [C] However, it saw a resurgence during the following Renaissance period, leading to the flourishing of theater that laid the groundwork for modern theater. [D]",
           qi: [5, 6, 7, 8, 9]
         }
       ],
       qs: [
-        { q: "What time should Ms. Patel arrive for her appointment?", opts: ["10:00 AM", "2:45 PM", "3:00 PM", "3:15 PM"], ans: 1 },
-        { q: "How can Ms. Patel cancel her appointment?", opts: ["By replying to the e-mail", "By clicking a link", "By calling a phone number", "By sending a text message"], ans: 2 },
-        { q: "What is this advertisement mainly about?", opts: ["Career opportunities at the Riverdale Parks Department", "Educational programs for children", "Volunteer opportunities for community members", "Training courses for nature guides"], ans: 2 },
-        { q: "What must volunteers do before they can start working?", opts: ["Submit references from previous employers", "Complete training and pass a background check", "Demonstrate experience working with children", "Commit to working both Saturday and Sunday"], ans: 1 },
-        { q: "When is the latest someone can apply for this program?", opts: ["March 15th", "April 15th", "May 1st", "May 9th"], ans: 0 },
-        { q: "The word \"dominant\" in the passage is closest in meaning to", opts: ["relevant", "favorite", "leading", "entertaining"], ans: 2 },
-        { q: "Why does the author mention The Twilight Zone?", opts: ["To illustrate the popularity of science fiction during the Golden Age", "To highlight the innovative nature of anthology series", "To discuss the impact of horror on television", "To compare different types of TV formats"], ans: 1 },
-        { q: "What does the author suggest about sitcoms like I Love Lucy?", opts: ["They made TV less popular during the Golden Age", "They focused on people's daily lives.", "They reduced the influence of advertisers", "They were more popular than anthology series"], ans: 1 },
-        { q: "What is the relationship between paragraphs 2 and 3?", opts: ["Paragraph 3 expands on the challenges mentioned in paragraph 2.", "Paragraph 3 provides examples of the formats discussed in paragraph 2.", "Paragraph 3 introduces a new issue that was not covered in paragraph 2.", "Paragraph 3 contradicts the success of TV shows mentioned in paragraph 2."], ans: 2 },
-        { q: "Why does the author mention advertisers in the passage?", opts: ["To explain a challenge faced by TV networks", "To point out how TV shows were funded at the time", "To illustrate the role of commercials during live broadcasts", "To criticize the quality of programming during the Golden Age"], ans: 0 }
+        { q: "When did Mr. Clark register for the class?", opts: ["On October 20", "On October 25", "On October 26", "On October 29"], ans: 0 },
+        { q: "Why may Mr. Clark receive a refund?", opts: ["If he registered for the wrong class", "If he could not attend the class", "If he was dissatisfied with the class", "If he rescheduled the class"], ans: 1 },
+        { q: "What is this advertisement promoting?", opts: ["A job training program for new employees", "A professional workshop on workplace communication", "A management certification course", "A conflict-resolution consulting service"], ans: 1 },
+        { q: "What does someone gain by registering early?", opts: ["A reduction in cost", "A special certificate", "Guaranteed seating in the front row", "A one-on-one session with a facilitator"], ans: 0 },
+        { q: "Why is participation limited to 25 people?", opts: ["To keep costs affordable for participants", "To meet continuing education requirements", "To provide personalized attention to participants", "To ensure everyone receives a workbook"], ans: 2 },
+        { q: "A goal of the earliest theater performances in ancient Greece was to", opts: ["tell stories about the ancient societies that Greece evolved from", "honor important people in the community", "bring people from different groups together", "provide guidance on good and bad behavior"], ans: 3 },
+        { q: "How did the plays of Aristophanes compare to those of Aeschylus?", opts: ["They were in a different genre.", "They were more focused on fate, justice, and suffering.", "They were more popular among politicians and other important members of society.", "They had a greater impact on later cultures."], ans: 0 },
+        { q: "What was one effect of the elaborate stage designs of Roman theater?", opts: ["They added Greek elements to plays.", "They directed attention to the plays' creators.", "They increased the popularity of plays among members of the imperial family.", "They improved the communication of the plays' themes and narratives to viewers."], ans: 3 },
+        { q: "The word \"resurgence\" in the passage is closest in meaning to", opts: ["change", "debate", "history", "comeback"], ans: 3 },
+        { q: "There are four locations in the passage that indicate where the following sentence could be added: 'Few performances occurred around this time.' Where would it best fit?", opts: ["Option A", "Option B", "Option C", "Option D"], ans: 2 }
       ]
     }
   },
@@ -141,106 +141,106 @@ window.EXAM_DATA = {
   //     ans    = the part the student must arrange (excluding prefix and suffix)
   w1: [
     {
-      ctx:    "I'm planning to study abroad next year.",
+      ctx:    "Where did you get your shoes?",
       prefix: "",
-      suffix: " to visit.",
-      words:  ["you", "which", "planning", "countries", "in Europe", "are", "plan"],
-      ans:    "Which countries in Europe are you planning"
+      suffix: ".",
+      words:  ["visited", "had", "it", "last month", "the shop", "a sale", "I"],
+      ans:    "The shop I visited last month had a sale"
     },
     {
-      ctx:    "I'm excited to go camping this weekend.",
+      ctx:    "The workshop yesterday was very informative.",
       prefix: "",
-      suffix: " near the campground?",
-      words:  ["that", "you", "have", "black bears", "live", "heard"],
-      ans:    "Have you heard that black bears live"
+      suffix: " soon?",
+      words:  ["another one", "do", "there", "if", "be", "you know", "will"],
+      ans:    "Do you know if there will be another one"
     },
     {
-      ctx:    "I'm planning to take a photography class.",
-      prefix: "What type",
-      suffix: "?",
-      words:  ["the", "interests", "more", "you", "photography", "most", "of"],
-      ans:    "of photography interests you the most"
-    },
-    {
-      ctx:    "I'm thinking of adopting a dog this summer.",
-      prefix: "Which breed",
-      suffix: "?",
-      words:  ["of dog", "you", "do", "plan", "to adopt", "planning"],
-      ans:    "of dog do you plan to adopt"
-    },
-    {
-      ctx:    "I'm going to start writing a biography.",
-      prefix: "Which historical figure",
-      suffix: "?",
-      words:  ["have", "about", "to write", "chosen", "you", "choose"],
-      ans:    "have you chosen to write about"
-    },
-    {
-      ctx:    "I'm moving to a new city next month.",
+      ctx:    "The new restaurant downtown has amazing reviews.",
       prefix: "",
       suffix: "?",
-      words:  ["to move", "from here", "away", "why", "have", "chosen", "you"],
-      ans:    "Why have you chosen to move away from here"
+      words:  ["know", "do", "if", "has", "vegetarian options", "have", "you", "they"],
+      ans:    "Do you know if they have vegetarian options"
     },
     {
-      ctx:    "I'm planning to start a new project at work.",
+      ctx:    "That was a great movie we watched last night.",
+      prefix: "Would you",
+      suffix: "?",
+      words:  ["that", "by", "director", "would", "like", "another film", "to see"],
+      ans:    "like to see another film by that director"
+    },
+    {
+      ctx:    "I'm planning to visit my grandparents next weekend.",
       prefix: "",
       suffix: "?",
-      words:  ["to complete", "the new assignment", "when", "expect", "you", "do"],
-      ans:    "When do you expect to complete the new assignment"
+      words:  ["to the airport", "tell me", "you", "can", "need", "a lift", "whether"],
+      ans:    "Can you tell me whether you need a lift to the airport"
     },
     {
-      ctx:    "I'm going to submit my application today.",
-      prefix: "Have",
-      suffix: "?",
-      words:  ["the position", "applied", "your coworkers", "any", "has", "of", "for"],
-      ans:    "any of your coworkers applied for the position"
-    },
-    {
-      ctx:    "I'm attending a friend's wedding next week.",
+      ctx:    "The book you lent me was fascinating.",
       prefix: "",
-      suffix: " afterward?",
-      words:  ["plan to attend", "the wedding reception", "you", "do"],
-      ans:    "Do you plan to attend the wedding reception"
+      suffix: "?",
+      words:  ["has", "you know", "have", "the author", "if", "other books", "do", "written"],
+      ans:    "Do you know if the author has written other books"
     },
     {
-      ctx:    "I had a great time at the dinner party last night.",
-      prefix: "Did",
+      ctx:    "The new software update looks promising.",
+      prefix: "On",
       suffix: "?",
-      words:  ["serve", "they", "the main course", "before", "any appetizers"],
-      ans:    "they serve any appetizers before the main course"
+      words:  ["able", "which", "the download", "website", "to find", "were you"],
+      ans:    "which website were you able to find the download"
+    },
+    {
+      ctx:    "The new coffee shop downtown is very popular.",
+      prefix: "Is",
+      suffix: "?",
+      words:  ["that", "football matches", "you can", "on screen", "watch", "where", "the one"],
+      ans:    "that the one where you can watch football matches on screen"
+    },
+    {
+      ctx:    "We had a great time at the concert last night.",
+      prefix: "",
+      suffix: "?",
+      words:  ["that band", "is performing", "when", "how", "find out", "again", "can we"],
+      ans:    "How can we find out when that band is performing again"
+    },
+    {
+      ctx:    "I really enjoyed the hiking trip last weekend.",
+      prefix: "",
+      suffix: " for this month?",
+      words:  ["if", "more trips", "planned", "there are", "you", "tell me", "can"],
+      ans:    "Can you tell me if there are more trips planned"
     }
   ],
 
   w2: {
-    situation: "You are a member of the neighborhood association, and you have noticed that the local park needs some maintenance. You decide to contact the association president, Mr. Williams, to discuss the issues and offer a suggestion.",
+    situation: "You are a student organizing a study group for an upcoming exam. You want to invite your classmates to join the group and explain to them your ideas about how the group should proceed.",
     tasks: [
-      "Describe the maintenance issue you have observed in the park.",
-      "Explain why it is important to address the issue.",
-      "Make a suggestion for how to deal with the issue."
+      "Explain the purpose of the study group.",
+      "Describe the topics you plan to cover during the study sessions and other ideas you have for the sessions.",
+      "Suggest a time and location for the first meeting."
     ],
-    toLine:  "mr.williams@neighborhood.org",
-    subLine: "Concern about park maintenance",
+    toLine:  "classmates@university.edu",
+    subLine: "Invitation to join study group",
     range:   [80, 120],
-    rubric:  "A student writing an email to a neighborhood association president describing a park maintenance issue and suggesting a practical solution."
+    rubric:  "A student writing an email to classmates inviting them to join a study group for an upcoming exam and suggesting how the sessions should be organized."
   },
 
   w3: {
-    course: "Sociology",
+    course: "Digital Media",
     prof: {
-      name: "Dr. Diaz",
-      msg:  "Next week we'll be discussing the impact of urbanization on community life. Urbanization has led to the development of large cities with diverse populations. Some people believe that urbanization fosters a sense of community and cultural exchange, while others think it leads to social isolation and the breakdown of close-knit communities usually found in small towns and villages. What are your thoughts on this and why?"
+      name: "Dr. Achebe",
+      msg:  "Next week we'll be discussing the impact of digital media on traditional forms of communication. Some argue that digital media has had a beneficial effect overall, as it has greatly improved global communication and connectivity. Others believe it has had a largely negative effect, leading to the decline of face-to-face interactions and reduced quality of relationships. What is your opinion on this?"
     },
     sa: {
       name: "Student A",
-      txt:  "I believe urbanization fosters a sense of community and cultural exchange. Large cities bring together people from different backgrounds, creating opportunities for cultural interaction and mutual understanding. Urban areas often have vibrant social scenes that encourage community building."
+      txt:  "I believe digital media has primarily had a positive effect. It allows people to stay in touch over long distances with friends and family with whom they may not have had much contact otherwise. The convenience and speed of digital media allow people to communicate with ease."
     },
     sb: {
       name: "Student B",
-      txt:  "In my opinion, urbanization leads to social isolation and the breakdown of close-knit communities. The fast-paced city life can make it difficult for people to form meaningful connections. Traditional community bonds, often found in smaller towns, tend to weaken in urban settings."
+      txt:  "Although it seems like a good thing on the surface, I think digital media has led to some serious problems. People often spend more time online than engaging in real-life conversations, which can erode social bonds and reduce the quality of communication with others. We need to find a balance between digital and traditional communication."
     },
-    inst:  "Express and support your opinion on whether urbanization fosters community and cultural exchange or leads to social isolation. Your response should be between 100 and 150 words.",
+    inst:  "Express and support your opinion on whether digital media has had a beneficial or negative effect on traditional forms of communication. Your response should be between 100 and 150 words.",
     range: [100, 150],
-    rubric: "Student contributing to a discussion on whether urbanization fosters community and cultural exchange or leads to social isolation and the breakdown of close-knit communities."
+    rubric: "Student contributing to a discussion on whether digital media has had a beneficial or negative effect on traditional forms of communication."
   }
 };
