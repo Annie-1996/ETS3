@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title id="page-title">TOEFL iBT Practice Test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 :root{
@@ -60,7 +63,7 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--tx
 /* MCQ */
 .qcard{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;}
 .qtxt{font-weight:600;margin-bottom:11px;font-size:.93em;}
-.opt{display:flex;align-items:flex-start;gap:9px;padding:9px 13px;border:1.5px solid var(--border);border-radius:8px;margin-bottom:7px;cursor:pointer;transition:all .14s;font-size:.9em;}
+.opt{display:flex;align-items:flex-start;gap:9px;padding:9px 13px;border:1.5px solid var(--border);border-radius:8px;margin-bottom:7px;cursor:pointer;transition:all .14s;font-size:.9em;font-family:'Akshar',sans-serif;}
 .opt:hover{border-color:var(--pri);background:#f0f3ff;}
 .opt.sel{border-color:var(--pri);background:#eef1ff;}
 .opt.cor{border-color:var(--ok);background:#e8f5e9;}
@@ -70,16 +73,17 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:var(--bg);color:var(--tx
 
 /* Letter-box blanks (one box per missing letter) */
 .lboxes{display:inline-flex;gap:3px;vertical-align:middle;margin:0 2px;}
-.lb{width:26px;height:28px;border:none;border-bottom:2.5px solid var(--pri);background:transparent;text-align:center;font-size:.92em;font-family:Helvetica,Arial,sans-serif;font-weight:600;color:var(--acc);outline:none;transition:border-color .15s,background .15s;padding:0;caret-color:var(--acc);}
+.lb{width:26px;height:28px;border:none;border-bottom:1px solid #000;background:transparent;text-align:center;font-size:.92em;font-family:Helvetica,Arial,sans-serif;font-weight:400;color:#000;outline:none;transition:border-color .15s,background .15s;padding:0;caret-color:#000;}
 .lb:focus{border-bottom-color:var(--acc);background:rgba(108,130,230,.07);}
 .lb.lb-cor{border-bottom-color:var(--ok);color:var(--ok);background:rgba(76,175,80,.08);}
 .lb.lb-wrong{border-bottom-color:var(--err);color:var(--err);background:rgba(244,67,54,.08);}
 .lb:read-only{cursor:default;}
-.para{font-size:.95em;line-height:2.5;}
+.para{font-size:.95em;line-height:2.5;font-family:'Akshar',sans-serif;}
+.akshar{font-family:'Akshar',sans-serif;}
 .blank-wrap{display:inline-block;position:relative;white-space:nowrap;vertical-align:baseline;}
 .bnum{font-size:.65em;vertical-align:super;color:var(--pri);font-weight:800;margin-right:1px;}
-.pfx{font-weight:700;color:var(--txt);font-size:.95em;letter-spacing:.01em;}
-.bi{border:none;border-bottom:2.5px solid var(--pri);background:transparent;padding:1px 2px;font-size:.93em;font-family:'Courier New',Courier,monospace;letter-spacing:3px;color:var(--acc);font-weight:700;outline:none;transition:border-color .15s;text-align:left;min-width:14px;}
+.pfx{font-weight:400;color:var(--txt);font-size:.95em;letter-spacing:.01em;}
+.bi{border:none;border-bottom:1px solid #000;background:transparent;padding:1px 2px;font-size:.93em;font-family:'Courier New',Courier,monospace;letter-spacing:3px;color:#000;font-weight:400;outline:none;transition:border-color .15s;text-align:left;min-width:14px;}
 .bi::placeholder{letter-spacing:4px;color:#bbb;font-weight:400;}
 .bi:focus{border-bottom-color:var(--acc);}
 .bi.cor{border-bottom-color:var(--ok);color:var(--ok);}
@@ -326,7 +330,7 @@ function renderR1ETS(){
   }
   app().innerHTML=`
     <div class="ph"><div class="pt">Module ${S.module} — Complete the Words</div><div class="ps">Questions 1–10 · Type the missing letters to complete each word</div></div>
-    <div class="inst">💡 Each box = one missing letter. The word's first letters are shown — just fill in the rest.<br>Example: <strong>develop</strong>[<span style="display:inline-flex;gap:2px;vertical-align:middle;"><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-size:.9em;color:var(--acc);font-weight:600;">m</span><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-size:.9em;color:var(--acc);font-weight:600;">e</span><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-size:.9em;color:var(--acc);font-weight:600;">n</span><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-size:.9em;color:var(--acc);font-weight:600;">t</span>}] = <strong>development</strong></div>
+    <div class="inst">💡 Each box = one missing letter. The word's first letters are shown — just fill in the rest.<br>Example: <strong>develop</strong><span style="display:inline-flex;gap:2px;vertical-align:middle;"><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-size:.9em;color:#000;font-weight:400;">m</span><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-size:.9em;color:#000;font-weight:400;">e</span><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-size:.9em;color:#000;font-weight:400;">n</span><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-size:.9em;color:#000;font-weight:400;">t</span></span> = <strong>development</strong></div>
     <div class="card">${html}${keyHTML}</div>
     <div class="nav"><div></div><button class="btn btn-acc" onclick="nextMPart()">Next Part →</button></div>`;
   document.querySelectorAll('.lb').forEach(el=>{
@@ -386,7 +390,7 @@ function renderReadingPanel(){
       <div class="left-panel">
         <div style="font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--pri);margin-bottom:10px;">${escH(txt.tag)}</div>
         <div style="font-weight:700;margin-bottom:10px;">${escH(txt.title)}</div>
-        <div style="white-space:pre-line;font-size:.9em;line-height:1.8;">${escH(txt.content)}</div>
+        <div class="akshar" style="white-space:pre-line;font-size:.9em;line-height:1.8;">${escH(txt.content)}</div>
       </div>
       <div class="right-panel">${qhtml}</div>
     </div>
@@ -446,7 +450,7 @@ function renderR1(){
   }
   app().innerHTML=`
     <div class="ph"><div class="pt">Reading Part 1 — Complete the Words</div><div class="ps">Questions 1–10 · Type the missing letters to complete each word</div></div>
-    <div class="inst">💡 Each box = one missing letter. The word's first letters are shown — just fill in the rest.<br>Example: <strong>sim</strong> <span style="display:inline-flex;gap:2px;vertical-align:middle;"><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--acc);font-weight:600;">p</span><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--acc);font-weight:600;">l</span><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--acc);font-weight:600;">e</span></span> = <strong>simple</strong> &nbsp;|&nbsp; <strong>bu</strong> <span style="display:inline-flex;gap:2px;vertical-align:middle;"><span style="display:inline-block;width:22px;height:22px;border-bottom:2px solid var(--acc);text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:var(--acc);font-weight:600;">t</span></span> = <strong>but</strong></div>
+    <div class="inst">💡 Each box = one missing letter. The word's first letters are shown — just fill in the rest.<br>Example: <strong>sim</strong><span style="display:inline-flex;gap:2px;vertical-align:middle;"><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:#000;font-weight:400;">p</span><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:#000;font-weight:400;">l</span><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:#000;font-weight:400;">e</span></span> = <strong>simple</strong> &nbsp;|&nbsp; <strong>bu</strong><span style="display:inline-flex;gap:2px;vertical-align:middle;"><span style="display:inline-block;width:22px;height:22px;border-bottom:1px solid #000;text-align:center;font-family:Helvetica,Arial,sans-serif;font-size:.9em;color:#000;font-weight:400;">t</span></span> = <strong>but</strong></div>
     <div class="card"><div style="font-size:.78em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--acc);margin-bottom:16px;">Topic: Climate Change &amp; Sustainability</div>${html}${keyHTML}</div>
     <div class="nav"><div></div><button class="btn btn-acc" onclick="nextRPart()">Next Part →</button></div>`;
   document.querySelectorAll('.lb').forEach(el=>{
@@ -487,7 +491,7 @@ function renderR2(){
       <div class="left-panel">
         <div style="font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--pri);margin-bottom:10px;">${escH(txt.tag)}</div>
         <div style="font-weight:700;margin-bottom:10px;">${escH(txt.title)}</div>
-        <div style="white-space:pre-line;font-size:.9em;line-height:1.8;">${escH(txt.content)}</div>
+        <div class="akshar" style="white-space:pre-line;font-size:.9em;line-height:1.8;">${escH(txt.content)}</div>
       </div>
       <div class="right-panel">${qhtml}</div>
     </div>
@@ -522,7 +526,7 @@ function renderR3(){
       <div class="left-panel">
         <div style="font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--pri);margin-bottom:6px;">${escH(p.sub)}</div>
         <div style="font-weight:700;font-size:1.05em;margin-bottom:12px;">${escH(p.title)}</div>
-        <div style="font-size:.9em;line-height:1.85;white-space:pre-line;">${escH(p.content)}</div>
+        <div class="akshar" style="font-size:.9em;line-height:1.85;white-space:pre-line;">${escH(p.content)}</div>
       </div>
       <div class="right-panel">${qhtml}</div>
     </div>
@@ -591,7 +595,7 @@ function renderW1(){
     <div class="prog-out"><div class="prog-in" style="width:${(qi+1)/10*100}%"></div></div>
     <div class="card" style="margin-top:18px;">
       <div style="font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gray);margin-bottom:6px;">Context</div>
-      <div style="font-size:1.08em;font-weight:600;margin-bottom:18px;">"${escH(q.ctx)}"</div>
+      <div class="akshar" style="font-size:1.08em;font-weight:600;margin-bottom:18px;">"${escH(q.ctx)}"</div>
       <div style="font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gray);margin-bottom:6px;">Word Bank — click to add</div>
       <div class="wbank">${chips}</div>
       <div style="font-size:.75em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gray);margin:14px 0 6px;">Your Sentence — click a word to remove</div>
@@ -622,7 +626,7 @@ function renderW2(){
   app().innerHTML=`
     <div class="ph"><div class="pt">Writing Part 2 — Email Writing</div><div class="ps">Task · 80–120 words · 7 minutes</div></div>
     <div class="card">
-      <div style="font-size:.88em;line-height:1.8;margin-bottom:14px;">${escH(p.situation)}</div>
+      <div class="akshar" style="font-size:.88em;line-height:1.8;margin-bottom:14px;">${escH(p.situation)}</div>
       <ul style="padding-left:20px;font-size:.88em;line-height:2;color:var(--txt);">${taskList}</ul>
       <div style="margin-top:14px;font-size:.82em;color:var(--gray);">Write as much as you can in complete sentences.</div>
     </div>
@@ -660,15 +664,15 @@ function renderW3(){
       <div class="spk">
         <div style="font-size:.72em;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gray);margin-bottom:4px;">${escH(p.course)}</div>
         <div class="spk-name">🎓 Professor ${escH(p.prof.name)}</div>
-        <div style="font-size:.9em;line-height:1.8;">${escH(p.prof.msg)}</div>
+        <div class="akshar" style="font-size:.9em;line-height:1.8;">${escH(p.prof.msg)}</div>
       </div>
       <div class="spk" style="margin-top:14px;padding-top:14px;border-top:1px solid #f0e0d8;">
         <div class="spk-name">📝 ${escH(p.sa.name)}</div>
-        <div style="font-size:.88em;line-height:1.78;">${escH(p.sa.txt)}</div>
+        <div class="akshar" style="font-size:.88em;line-height:1.78;">${escH(p.sa.txt)}</div>
       </div>
       <div class="spk" style="margin-top:12px;">
         <div class="spk-name">📝 ${escH(p.sb.name)}</div>
-        <div style="font-size:.88em;line-height:1.78;">${escH(p.sb.txt)}</div>
+        <div class="akshar" style="font-size:.88em;line-height:1.78;">${escH(p.sb.txt)}</div>
       </div>
     </div>
     <div class="card">
